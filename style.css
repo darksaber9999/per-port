@@ -1,0 +1,13 @@
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  z-index: 1;
+}
