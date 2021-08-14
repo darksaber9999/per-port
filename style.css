@@ -11,3 +11,9 @@ hr {
   position: absolute;
   z-index: 1;
 }
+
+.aspectRatioBox {
+  padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
+  background-size: cover;
+  background-position: center;
+}

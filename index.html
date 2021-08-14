@@ -9,16 +9,17 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <!-- Fontawesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/ebcce9b2a3.js" crossorigin="anonymous"></script>
+  <!-- Custom CSS-->
   <link rel="stylesheet" type="text/css" href="./style.css">
   <title>Chris Kellogg</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-light bg-dark pb-0">
+  <nav class="navbar navbar-expand-md navbar-light bg-dark pb-1">
     <a class="navbar-brand text-white d-none d-md-block" href="#">Chris Kellogg</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    <a class="navbar-brand text-white d-md-none" href="#">CK</a>
+    <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -58,32 +59,28 @@
       <div class="col-12 mt-4">
         <h3 class="text-center mb-3">Projects</h3>
       </div>
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-6 pb-3">
         <a href="https://chris-fruit-clone.netlify.app/">
-          <img src="./images/emily-morter-8xAA0f9yQnE-unsplash.jpg" class="img-thumbnail"
-            alt="Thumbnail of Apple Clone website">
-          <h5 class="text-dark">Apple Clone</h5>
+          <img src="./images/Apple_clone.png" class="img-thumbnail" alt="Thumbnail of Apple Clone website">
+          <h4 class="text-dark">Apple Clone</h4>
         </a>
       </div>
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-6 pb-3">
         <a href="https://chris-fake-news.netlify.app/">
-          <img src="./images/emily-morter-8xAA0f9yQnE-unsplash.jpg" class="img-thumbnail"
-            alt="Thumbnail of Newsweek Clone website">
-          <h5 class="text-dark">Newsweek Clone</h5>
+          <img src="./images/Newsweek_clone.png" class="img-thumbnail" alt="Thumbnail of Newsweek Clone website">
+          <h4 class="text-dark">Newsweek Clone</h4>
         </a>
       </div>
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-6 pb-3">
         <a href="https://little-trip-clone.netlify.app/">
-          <img src="./images/emily-morter-8xAA0f9yQnE-unsplash.jpg" class="img-thumbnail"
-            alt="Thumbnail of Airbnb Clone website">
-          <h5 class="text-dark">Airbnb Clone</h5>
+          <img src="./images/Airbnb_clone.png" class="img-thumbnail" alt="Thumbnail of Airbnb Clone website">
+          <h4 class="text-dark">Airbnb Clone</h4>
         </a>
       </div>
       <div class="col-12 col-md-6 pb-3">
         <a href="https://o2bnb-press-clone.netlify.app/">
-          <img src="./images/emily-morter-8xAA0f9yQnE-unsplash.jpg" class="img-thumbnail"
-            alt="Thumbnail of Airbnb Press Clone website">
-          <h5 class="text-dark">Airbnb Press Site Clone</h5>
+          <img src="./images/Airbnb_news_clone.png" class="img-thumbnail" alt="Thumbnail of Airbnb Press Clone website">
+          <h4 class="text-dark">Airbnb Press Site Clone</h4>
         </a>
       </div>
     </div>
@@ -91,35 +88,47 @@
 
   <hr />
 
-  <div class="container" id="about-me">
+  <div class="container-fluid" id="about-me">
     <div class="row">
       <div class="col-12 mt-4 mb-3">
         <h3 class="text-center mb-3">About Me</h3>
-        <p>Chris is an avid technology lover and enjoys learning all he can about new technologies and how it
-          can be used to help people and their projects. He has a lot of previous work experience in accounting as well
-          as various
-          other
-          retail positions. He is currently learning about full stack web development and beginning to cultivate a
-          career in it.<br>
-          <br>
-          You can contact him at any of the social links below.
-        </p>
+        <div class="row">
+          <div class="col-4 col-md-3">
+            <img src="./images/about_me.jpeg" class="img-fluid" alt="Picture of Chris Kellogg">
+          </div>
+          <div class="col-8 col-md-9">
+            <p>Chris is an avid technology lover and enjoys learning all he can about new technologies and how it
+              can be used to help people and their projects. He has a lot of previous work experience in accounting as
+              well
+              as various
+              other
+              retail positions. He is currently learning about full stack web development and beginning to cultivate a
+              career in it.<br>
+              <br>
+              You can contact him at any of the social links below.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
   <hr />
 
-  <footer class="container">
+  <footer class="container-fluid bg-light">
     <div class="row footerNav pt-4">
       <div class="col-12 col-md-8">
-        <h5 class="mb-3">
-          <a href="https://github.com/darksaber9999"><i class="mr-3 fab fa-github"></i></a>
-          <a href="#"><i class="mr-3 fab fa-twitter"></i></a>
-          <a href="#"><i class="mr-3 fab fa-linkedin"></i></a>
-        </h5>
+        <h3 class="mb-2 ml-3">
+          <a href="mailto:chris.kellogg@icloud.com"><i class="mr-3 fas fa-at"></i></a>
+          <a href="https://github.com/darksaber9999" target="_blank" rel="noopener noreferrer"><i
+              class="mr-3 fab fa-github"></i></a>
+          <a href="https://twitter.com/chriskellogg19" target="_blank" rel="noopener noreferrer"><i
+              class="mr-3 fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/chris-kellogg-96256b15b/" target="_blank" rel="noopener noreferrer"><i
+              class="mr-3 fab fa-linkedin"></i></a>
+        </h3>
       </div>
-      <div class="col-12 col-md-4 text-md-right">
+      <div class="col-12 col-md-4 text-md-right mb-2 ml-3 ml-md-0">
         <small>&copy; 2021. All rights reserved.</small>
       </div>
     </div>
